@@ -12,7 +12,7 @@ class RepoScreen extends React.Component {
     return fetch('http://api.github.com/graphql',{
         method: 'POST',
         headers: {
-          'Authorization' : 'bearer 3fd2164e9c663e72caebee19950ef7b9347e3c44'
+          'Authorization' : 'bearer '
         },
         body: JSON.stringify({query:'{ viewer { repositories(first: 100) { nodes { name owner { login } description } } } }'})
       })
