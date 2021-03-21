@@ -1,0 +1,64 @@
+//main
+query { 
+  viewer { 
+  	avatarUrl
+    name
+    login
+    bio
+    websiteUrl
+    email
+    repositories{
+      totalCount
+    }
+    followers{
+      totalCount
+    }
+    following{
+      totalCount
+    }
+    createdAt
+  }
+}
+
+//repo
+query { 
+  viewer {
+    repositories(first: 100) {
+      totalCount
+      nodes {
+        name
+        owner {
+          login
+        }
+        description
+      }
+    }
+  }
+}
+
+//follower
+query { 
+  viewer { 
+    followers(first: 100){
+      nodes{
+        login
+      }
+    }
+  }
+}
+
+//following
+# Type queries into this side of the screen, and you will 
+# see intelligent typeaheads aware of the current GraphQL type schema, 
+# live syntax, and validation errors highlighted within the text.
+
+# We'll get you started with a simple query showing your username!
+query { 
+  viewer { 
+    following(first: 100){
+      nodes{
+        login
+      }
+    }
+  }
+}
