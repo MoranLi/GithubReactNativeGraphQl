@@ -1,11 +1,10 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import {
   FlatList, ActivityIndicator, StyleSheet, Text, View, Button,
 } from 'react-native';
 import Repository from '../model/Repository';
 
-class RepoScreen extends React.Component {
+export default class RepoScreen extends React.Component {
   constructor(props) {
     super(props);
     this.state = { isLoading: true, datas: [] };
@@ -76,5 +75,3 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
 });
-
-export default RepoScreen;

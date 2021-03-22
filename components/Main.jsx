@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {
   ActivityIndicator, View, Image, StyleSheet, Button, Text,
 } from 'react-native';
 import Profile from '../model/Profile';
 
-class MainScreen extends Component {
+export default class MainScreen extends React.Component {
   constructor(props) {
     super(props);
     this.state = { isLoading: true };
@@ -95,5 +95,3 @@ const styles = StyleSheet.create({
     height: 58,
   },
 });
-
-export default MainScreen;
