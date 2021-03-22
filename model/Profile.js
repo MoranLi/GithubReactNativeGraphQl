@@ -11,34 +11,44 @@ export default class Profile {
     this.followingCount = response.following.totalCount;
     this.date = response.createdAt;
   }
-  getLogo () {
+
+  getLogo() {
     return this.logo;
   }
-  getName () {
+
+  getName() {
     return this.name;
   }
-  getUsername () {
+
+  getUsername() {
     return this.username;
   }
-  getBio(){
+
+  getBio() {
     return this.bio;
   }
-  getEmail(){
+
+  getEmail() {
     return this.email;
   }
-  getWebsite(){
+
+  getWebsite() {
     return this.websiteUrl;
   }
-  getRepoCount(){
+
+  getRepoCount() {
     return this.repoCount;
   }
-  getfollowerCount(){
+
+  getfollowerCount() {
     return this.followerCount;
   }
-  getFollowingCount(){
+
+  getFollowingCount() {
     return this.followingCount;
   }
-  getDate(){
+
+  getDate() {
     return this.date;
   }
 }

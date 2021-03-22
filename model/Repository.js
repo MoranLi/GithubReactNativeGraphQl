@@ -1,16 +1,19 @@
-export default class Repository{
+export default class Repository {
   constructor(node) {
     this.name = node.name;
     this.username = node.owner.login;
-    this.description = node.description; 
+    this.description = node.description;
   }
-  getName () {
+
+  getName() {
     return this.name;
   }
-  getUsername () {
+
+  getUsername() {
     return this.username;
   }
-  getDescription(){
+
+  getDescription() {
     return this.description;
   }
 }

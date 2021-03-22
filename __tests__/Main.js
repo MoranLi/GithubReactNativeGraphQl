@@ -1,10 +1,9 @@
 import renderer from 'react-test-renderer';
 import 'react-native';
 import React from 'react';
-import App from '../App';
-
-// Note: test renderer must be required after react-native.
+import MainScreen from '../components/Main.jsx';
 
 it('renders correctly', () => {
-  renderer.create(<App />);
+  const tree = renderer.create(<MainScreen />);
+  expect(tree).toMatchSnapshot();
 });
