@@ -1,7 +1,7 @@
 import renderer from 'react-test-renderer';
 import 'react-native';
 import React from 'react';
-import MainScreen from '../components/Main.jsx';
+import MainScreen from '../components/Main';
 
 fetch = jest.fn(() => Promise.resolve());
 

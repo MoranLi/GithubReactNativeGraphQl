@@ -1,7 +1,7 @@
 import renderer from 'react-test-renderer';
 import 'react-native';
 import React from 'react';
-import RepoScreen from '../components/Repo.jsx';
+import RepoScreen from '../components/Repo';
 
 fetch = jest.fn(() => Promise.resolve());
 

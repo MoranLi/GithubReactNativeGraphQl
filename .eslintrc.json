@@ -21,6 +21,7 @@
   "plugins": [
       "react", "jest"
   ],
-  "rules": {}
+  "rules": {},
+  "ignorePatterns": [ "**/__tests__/*.js"]
 }
 
