@@ -10,11 +10,53 @@ query {
     repositories{
       totalCount
     }
-    followers{
+    followers(first:100){
+      totalCount
+      nodes{
+        avatarUrl
+        name
+        login
+      }
+    }
+    following(first:100){
+      totalCount
+      nodes{
+        avatarUrl
+        name
+        login
+      }
+    }
+    createdAt
+  }
+}
+
+//main with name
+query { 
+  user(login: name){
+    avatarUrl
+    name
+    login
+    bio
+    websiteUrl
+    email
+    repositories{
       totalCount
     }
-    following{
+    followers(first:100){
       totalCount
+      nodes{
+        avatarUrl
+        name
+        login
+      }
+    }
+    following(first:100){
+      totalCount
+      nodes{
+        avatarUrl
+        name
+        login
+      }
     }
     createdAt
   }
@@ -31,33 +73,6 @@ query {
           login
         }
         description
-      }
-    }
-  }
-}
-
-//follower
-query { 
-  viewer { 
-    followers(first: 100){
-      nodes{
-        login
-      }
-    }
-  }
-}
-
-//following
-# Type queries into this side of the screen, and you will 
-# see intelligent typeaheads aware of the current GraphQL type schema, 
-# live syntax, and validation errors highlighted within the text.
-
-# We'll get you started with a simple query showing your username!
-query { 
-  viewer { 
-    following(first: 100){
-      nodes{
-        login
       }
     }
   }

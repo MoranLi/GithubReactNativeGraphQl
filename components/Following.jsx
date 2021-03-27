@@ -1,9 +1,19 @@
 import React from 'react';
 import {
-  StyleSheet, Text, View, Button,
+  FlatList, StyleSheet, Text, View, Button, Image
 } from 'react-native';
 
 const styles = StyleSheet.create({
+  container: {
+    paddingTop: 50,
+    textAlign: 'center',
+  },
+  logo: {
+    width: 66,
+    height: 58,
+    display: 'flex',
+    margin: 'auto'
+  },
   baseText: {
     fontFamily: 'Cochin',
   },
@@ -14,12 +24,31 @@ const styles = StyleSheet.create({
 });
 
 class FollowingScreen extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {}
+    this.state.datas = this.props.route.params;
+  }
   render() {
+    console.log(this.state.datas)
     return (
       <View style={styles.container}>
-        <Text style={styles.baseText}>
-          This is Following
-        </Text>
+        <FlatList
+          data={this.state.datas}
+          renderItem={({ item }) => (
+            <View style={styles.container}>
+              <Image
+                style={styles.logo}
+                source={{ uri: item.avatarUrl }}
+              />
+              <Text style={styles.baseText}>
+                {item.name}
+                ,
+                {item.login}
+              </Text>
+            </View>
+          )}
+        />
         <Button
           title="Go to Main"
           onPress={() => this.props.navigation.navigate('Main')}

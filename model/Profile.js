@@ -10,6 +10,14 @@ export default class Profile {
     this.followerCount = response.followers.totalCount;
     this.followingCount = response.following.totalCount;
     this.date = response.createdAt;
+    this.followers = [];
+    for (let i = 0; i < response.followers.totalCount; i++) {
+      this.followers.push(response.followers.nodes[i]);
+    }
+    this.following = [];
+    for (let i = 0; i < response.following.totalCount; i++) {
+      this.following.push(response.following.nodes[i]);
+    }
   }
 
   getLogo() {
@@ -51,4 +59,13 @@ export default class Profile {
   getDate() {
     return this.date;
   }
+
+  getFollowers(){
+    return this.followers;
+  }
+
+  getFollowing(){
+    return this.following;
+  }
+
 }

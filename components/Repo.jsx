@@ -48,7 +48,7 @@ export default class RepoScreen extends React.Component {
         <FlatList
           data={this.state.datas}
           renderItem={({ item }) => (
-            <Text>
+            <Text style={styles.baseText}>
               {item.getName()}
               ,
               {item.getUsername()}
@@ -69,9 +69,11 @@ export default class RepoScreen extends React.Component {
 const styles = StyleSheet.create({
   baseText: {
     fontFamily: 'Cochin',
+    borderStyle: 'solid',
+    borderWidth: '1px'
   },
   titleText: {
     fontSize: 20,
     fontWeight: 'bold',
-  },
+  }
 });
