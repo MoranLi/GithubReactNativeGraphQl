@@ -1,5 +1,6 @@
 export default class Profile {
   constructor(response) {
+    console.log(response)
     this.logo = response.avatarUrl;
     this.name = response.name;
     this.username = response.login;
@@ -41,7 +42,7 @@ export default class Profile {
   }
 
   getWebsite() {
-    return this.websiteUrl;
+    return this.url;
   }
 
   getRepoCount() {
