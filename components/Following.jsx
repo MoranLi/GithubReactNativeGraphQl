@@ -33,7 +33,7 @@ class FollowingScreen extends React.Component {
     console.log(this.state.datas)
     return (
       <View style={styles.container}>
-        <FlatList
+         <FlatList
           data={this.state.datas}
           renderItem={({ item }) => (
             <View style={styles.container}>
@@ -43,9 +43,11 @@ class FollowingScreen extends React.Component {
               />
               <Text style={styles.baseText}>
                 {item.name}
-                ,
-                {item.login}
               </Text>
+              <Button
+                title={item.login}
+                onPress={() => this.props.navigation.navigate('Main',{currName: item.login})}
+              />
             </View>
           )}
         />
