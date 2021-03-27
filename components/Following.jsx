@@ -46,14 +46,14 @@ class FollowingScreen extends React.Component {
               </Text>
               <Button
                 title={item.login}
-                onPress={() => this.props.navigation.navigate('Main',{currName: item.login})}
+                onPress={() => this.props.navigation.navigate('Main',{haveName: true, currName: item.login})}
               />
             </View>
           )}
         />
         <Button
           title="Go to Main"
-          onPress={() => this.props.navigation.navigate('Main')}
+          onPress={() => this.props.navigation.navigate('Main',{haveName: false, currName: ''})}
         />
       </View>
     );
