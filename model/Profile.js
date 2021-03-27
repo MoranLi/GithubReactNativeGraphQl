@@ -11,11 +11,11 @@ export default class Profile {
     this.followingCount = response.following.totalCount;
     this.date = response.createdAt;
     this.followers = [];
-    for (let i = 0; i < response.followers.totalCount; i++) {
+    for (let i = 0; i < response.followers.totalCount; i += 1) {
       this.followers.push(response.followers.nodes[i]);
     }
     this.following = [];
-    for (let i = 0; i < response.following.totalCount; i++) {
+    for (let i = 0; i < response.following.totalCount; i += 1) {
       this.following.push(response.following.nodes[i]);
     }
   }
@@ -60,12 +60,11 @@ export default class Profile {
     return this.date;
   }
 
-  getFollowers(){
+  getFollowers() {
     return this.followers;
   }
 
-  getFollowing(){
+  getFollowing() {
     return this.following;
   }
-
 }
