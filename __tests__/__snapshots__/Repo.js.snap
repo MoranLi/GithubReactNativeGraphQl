@@ -1,19 +1,1067 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<View
-  style={
-    Object {
-      "flex": 1,
-      "padding": 20,
+<View>
+  <RCTScrollView
+    data={
+      Array [
+        Repository {
+          "description": null,
+          "name": "270assignment4",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "214assignment3",
+          "name": "214assignment3",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "learning usage of git and github",
+          "name": "PushAndPull",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "recipes",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "281lab6",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "270assignment5",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "214assignment4",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "214-cheat-sheet",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "214-labs",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "Basic Java Data Structure And Algorithm",
+          "name": "280-In-Class-Exercise",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "340-In-Class-Exercise",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "280-assignment-1",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "280-assignment-2",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "340-assignment-1",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "340-assignment-2",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "340-assignment-02",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "340-assignment-4",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "MysomeApplication",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "JustJava",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "AndroidCalculator",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "UofS_Important_Date",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "pet data api to provide data in mongoose database",
+          "name": "pet-data",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "pet web interface provide web interface  to show pet data and get recommendion on bring umbrella base on weather forecast",
+          "name": "pet-interface",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "vue_pizza",
+          "name": "vuePizza",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "data visualization project",
+          "name": "398project",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "371_upload_file",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "gold miner game base on MIPS run with mars",
+          "name": "gold-miner",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "unit transfer tool base on andorid",
+          "name": "android-unit-transfer",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "python for web scraping ",
+          "name": "Web-Scraping",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "js xml parser for parse specific xml file to print needed information",
+          "name": "XMLparser",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "test project fro mongoose insert/delete/update/find",
+          "name": "mongoose_event",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "React tut project",
+          "name": "React-TicTac",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "350",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "database in postgresql",
+          "name": "bank_employee",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "GradleServer",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "file system using c working on linux",
+          "name": "File-system",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "350server",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "CSV converter fro Nicad report and Gcad report for visualization",
+          "name": "2018SummerResearch",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "DatabaseJSON",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "circle",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "node.js base project fro random dating",
+          "name": "dating",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "RestfulDB",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "xxprof_website",
+          "username": "RexNotDinosaur",
+        },
+        Repository {
+          "description": null,
+          "name": "algoritm-and-data-structure",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "Machine Learning A-Z course on udemy",
+          "name": "udemy-machine-learning",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "usask_scheduler",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "cc189",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "usaskCourses",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "clone-world",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "udemy The Complete Machine Learning Course with Python Your progress course",
+          "name": "The-Complete-Machine-Learning-Course-with-Python",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "leetcode",
+          "name": "leetcode",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "wenyi",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "node.js based RESTAPI provider for mongodb",
+          "name": "account-manager-mongodb-server",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "OpenGLLearning",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "485",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "fwff",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "434assignment",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "好耶  是女装",
+          "name": "Dress",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "three.js-example",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "485 hosting page",
+          "name": "wel992.github.io",
+          "username": "wel992",
+        },
+        Repository {
+          "description": null,
+          "name": "AWS-learning-Note",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "MoranLi.github.io",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "📚 经典技术书籍 PDF 文件，持续更新...",
+          "name": "awesome-programming-books",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "learn spring core ",
+          "name": "udemy-spring-core",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+          "name": "system-design-primer",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "sis001Text",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "刷算法全靠套路，认准 labuladong 就够了！English version supported! Crack LeetCode, not only how, but also why. ",
+          "name": "fucking-algorithm",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "chrome extension for sis001text",
+          "name": "sis001textExtension",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "learn spring boot",
+          "name": "spring-rest-service",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "consuming-rest",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "relational-data-access",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "authenticating-ldap",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "easyke",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "udemy-fa",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "easyke_copy",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "Java & React project for TrtRefer aim to provided easy way for employees to find someone for reference",
+          "name": "TrtRefer",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "leetcodeNew",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "hello-graphql",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "GithubReactNativeGraphQl",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "270assignment4",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "214assignment3",
+          "name": "214assignment3",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "learning usage of git and github",
+          "name": "PushAndPull",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "recipes",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "281lab6",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "270assignment5",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "214assignment4",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "214-cheat-sheet",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "214-labs",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "Basic Java Data Structure And Algorithm",
+          "name": "280-In-Class-Exercise",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "340-In-Class-Exercise",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "280-assignment-1",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "280-assignment-2",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "340-assignment-1",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "340-assignment-2",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "340-assignment-02",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "340-assignment-4",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "MysomeApplication",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "JustJava",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "AndroidCalculator",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "UofS_Important_Date",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "pet data api to provide data in mongoose database",
+          "name": "pet-data",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "pet web interface provide web interface  to show pet data and get recommendion on bring umbrella base on weather forecast",
+          "name": "pet-interface",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "vue_pizza",
+          "name": "vuePizza",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "data visualization project",
+          "name": "398project",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "371_upload_file",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "gold miner game base on MIPS run with mars",
+          "name": "gold-miner",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "unit transfer tool base on andorid",
+          "name": "android-unit-transfer",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "python for web scraping ",
+          "name": "Web-Scraping",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "js xml parser for parse specific xml file to print needed information",
+          "name": "XMLparser",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "test project fro mongoose insert/delete/update/find",
+          "name": "mongoose_event",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "React tut project",
+          "name": "React-TicTac",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "350",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "database in postgresql",
+          "name": "bank_employee",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "GradleServer",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "file system using c working on linux",
+          "name": "File-system",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "350server",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "CSV converter fro Nicad report and Gcad report for visualization",
+          "name": "2018SummerResearch",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "DatabaseJSON",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "circle",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "node.js base project fro random dating",
+          "name": "dating",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "RestfulDB",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "xxprof_website",
+          "username": "RexNotDinosaur",
+        },
+        Repository {
+          "description": null,
+          "name": "algoritm-and-data-structure",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "Machine Learning A-Z course on udemy",
+          "name": "udemy-machine-learning",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "usask_scheduler",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "cc189",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "usaskCourses",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "clone-world",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "udemy The Complete Machine Learning Course with Python Your progress course",
+          "name": "The-Complete-Machine-Learning-Course-with-Python",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "leetcode",
+          "name": "leetcode",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "wenyi",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "node.js based RESTAPI provider for mongodb",
+          "name": "account-manager-mongodb-server",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "OpenGLLearning",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "485",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "fwff",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "434assignment",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "好耶  是女装",
+          "name": "Dress",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "three.js-example",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "485 hosting page",
+          "name": "wel992.github.io",
+          "username": "wel992",
+        },
+        Repository {
+          "description": null,
+          "name": "AWS-learning-Note",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "MoranLi.github.io",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "📚 经典技术书籍 PDF 文件，持续更新...",
+          "name": "awesome-programming-books",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "learn spring core ",
+          "name": "udemy-spring-core",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+          "name": "system-design-primer",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "sis001Text",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "刷算法全靠套路，认准 labuladong 就够了！English version supported! Crack LeetCode, not only how, but also why. ",
+          "name": "fucking-algorithm",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "chrome extension for sis001text",
+          "name": "sis001textExtension",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "learn spring boot",
+          "name": "spring-rest-service",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "consuming-rest",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "relational-data-access",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "authenticating-ldap",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "easyke",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "udemy-fa",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "easyke_copy",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": "Java & React project for TrtRefer aim to provided easy way for employees to find someone for reference",
+          "name": "TrtRefer",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "leetcodeNew",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "hello-graphql",
+          "username": "MoranLi",
+        },
+        Repository {
+          "description": null,
+          "name": "GithubReactNativeGraphQl",
+          "username": "MoranLi",
+        },
+      ]
     }
-  }
->
-  <ActivityIndicator
-    animating={true}
-    color="#999999"
-    hidesWhenStopped={true}
-    size="small"
-  />
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          style={
+            Object {
+              "borderStyle": "solid",
+              "borderWidth": 1,
+              "fontFamily": "Cochin",
+            }
+          }
+        >
+          270assignment4
+          ,
+          MoranLi
+          ,
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          style={
+            Object {
+              "borderStyle": "solid",
+              "borderWidth": 1,
+              "fontFamily": "Cochin",
+            }
+          }
+        >
+          214assignment3
+          ,
+          MoranLi
+          ,
+          214assignment3
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          style={
+            Object {
+              "borderStyle": "solid",
+              "borderWidth": 1,
+              "fontFamily": "Cochin",
+            }
+          }
+        >
+          PushAndPull
+          ,
+          MoranLi
+          ,
+          learning usage of git and github
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          style={
+            Object {
+              "borderStyle": "solid",
+              "borderWidth": 1,
+              "fontFamily": "Cochin",
+            }
+          }
+        >
+          recipes
+          ,
+          MoranLi
+          ,
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          style={
+            Object {
+              "borderStyle": "solid",
+              "borderWidth": 1,
+              "fontFamily": "Cochin",
+            }
+          }
+        >
+          281lab6
+          ,
+          MoranLi
+          ,
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          style={
+            Object {
+              "borderStyle": "solid",
+              "borderWidth": 1,
+              "fontFamily": "Cochin",
+            }
+          }
+        >
+          270assignment5
+          ,
+          MoranLi
+          ,
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          style={
+            Object {
+              "borderStyle": "solid",
+              "borderWidth": 1,
+              "fontFamily": "Cochin",
+            }
+          }
+        >
+          214assignment4
+          ,
+          MoranLi
+          ,
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          style={
+            Object {
+              "borderStyle": "solid",
+              "borderWidth": 1,
+              "fontFamily": "Cochin",
+            }
+          }
+        >
+          214-cheat-sheet
+          ,
+          MoranLi
+          ,
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          style={
+            Object {
+              "borderStyle": "solid",
+              "borderWidth": 1,
+              "fontFamily": "Cochin",
+            }
+          }
+        >
+          214-labs
+          ,
+          MoranLi
+          ,
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          style={
+            Object {
+              "borderStyle": "solid",
+              "borderWidth": 1,
+              "fontFamily": "Cochin",
+            }
+          }
+        >
+          280-In-Class-Exercise
+          ,
+          MoranLi
+          ,
+          Basic Java Data Structure And Algorithm
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "height": 0,
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+  <View
+    accessibilityRole="button"
+    accessibilityState={Object {}}
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Go to Main
+      </Text>
+    </View>
+  </View>
 </View>
 `;

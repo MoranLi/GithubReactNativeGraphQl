@@ -10,7 +10,7 @@ export default class RepoScreen extends React.Component {
     this.state = { isLoading: true, datas: [] };
   }
 
-  componentDidMount() {
+  async componentDidMount() {
     return fetch('https://api.github.com/graphql', {
       method: 'POST',
       headers: {
@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
   baseText: {
     fontFamily: 'Cochin',
     borderStyle: 'solid',
-    borderWidth: '1px'
+    borderWidth: 1
   },
   titleText: {
     fontSize: 20,

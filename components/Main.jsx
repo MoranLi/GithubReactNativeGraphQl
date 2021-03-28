@@ -10,7 +10,7 @@ export default class MainScreen extends React.Component {
     this.state = { isLoading: true, haveName: false, currName: "" };
   }
   
-  componentDidMount() {
+  async componentDidMount() {
     let queryStr = 'query{ viewer{ 	avatarUrl name login bio websiteUrl email repositories{ totalCount } followers(first:100){ totalCount nodes{ avatarUrl name login } } following(first:100){ totalCount nodes{ avatarUrl name login } } createdAt } }';
     return fetch('https://api.github.com/graphql', {
       method: 'POST',
@@ -28,16 +28,17 @@ export default class MainScreen extends React.Component {
           },
           () => {},
         );
+        return null;
       })
       .catch((error) => {
-        console.log(error);
+        //console.log(error);
+        return null;
       });
   }
 
 
-  componentDidUpdate(prevProps){
+  async componentDidUpdate(prevProps){
     if (this.props != prevProps){
-      console.log(this.props.route.params);
       if (this.props.route.params != null){
         this.state = { isLoading: true, haveName: this.props.route.params.haveName, currName: this.props.route.params.currName};
       }
@@ -67,7 +68,7 @@ export default class MainScreen extends React.Component {
           );
         })
         .catch((error) => {
-          console.log(error);
+          //console.log(error);
         });
     }
   }

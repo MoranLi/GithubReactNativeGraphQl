@@ -1,6 +1,5 @@
 export default class Profile {
   constructor(response) {
-    console.log(response)
     this.logo = response.avatarUrl;
     this.name = response.name;
     this.username = response.login;
