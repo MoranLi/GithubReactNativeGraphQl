@@ -4,6 +4,21 @@ import {
 } from 'react-native';
 import Profile from '../model/Profile';
 
+const viewerQuery = 'query{ viewer{ 	avatarUrl name login bio websiteUrl email repositories{ totalCount } followers(first:100){ totalCount nodes{ avatarUrl name login } } following(first:100){ totalCount nodes{ avatarUrl name login } } createdAt } }';
+
+const userQueryBegin = 'query{ user(login:\"';
+const userQueryEnd = '\"){ avatarUrl name login bio websiteUrl email repositories{ totalCount } followers(first:100){ totalCount nodes{ avatarUrl name login } } following(first:100){ totalCount nodes{ avatarUrl name login } } createdAt } }';
+
+function fetchWithQuery(queryString){
+  return fetch('https://api.github.com/graphql', {
+    method: 'POST',
+    headers: {
+      Authorization: 'bearer',
+    },
+    body: JSON.stringify({ query : queryString}),
+  })
+}
+
 export default class MainScreen extends React.Component {
   constructor(props) {
     super(props);
@@ -11,15 +26,7 @@ export default class MainScreen extends React.Component {
   }
   
   async componentDidMount() {
-    let queryStr = 'query{ viewer{ 	avatarUrl name login bio websiteUrl email repositories{ totalCount } followers(first:100){ totalCount nodes{ avatarUrl name login } } following(first:100){ totalCount nodes{ avatarUrl name login } } createdAt } }';
-    return fetch('https://api.github.com/graphql', {
-      method: 'POST',
-      headers: {
-        Authorization: 'bearer',
-      },
-      body: JSON.stringify({ query : queryStr}),
-    })
-      .then((response) => response.json())
+    return fetchWithQuery(viewerQuery).then((response) => response.json())
       .then((responseJson) => {
         this.setState(
           {
@@ -28,11 +35,9 @@ export default class MainScreen extends React.Component {
           },
           () => {},
         );
-        return null;
       })
       .catch((error) => {
-        //console.log(error);
-        return null;
+        console.log(error);
       });
   }
 
@@ -42,17 +47,11 @@ export default class MainScreen extends React.Component {
       if (this.props.route.params != null){
         this.state = { isLoading: true, haveName: this.props.route.params.haveName, currName: this.props.route.params.currName};
       }
-      let queryStr = 'query{ viewer{ 	avatarUrl name login bio websiteUrl email repositories{ totalCount } followers(first:100){ totalCount nodes{ avatarUrl name login } } following(first:100){ totalCount nodes{ avatarUrl name login } } createdAt } }';
+      let queryStr = viewerQuery;
       if(this.state.haveName == true){
-        queryStr = 'query{ user(login:\"'+this.state.currName+'\"){ avatarUrl name login bio websiteUrl email repositories{ totalCount } followers(first:100){ totalCount nodes{ avatarUrl name login } } following(first:100){ totalCount nodes{ avatarUrl name login } } createdAt } }';
+        queryStr = userQueryBegin+this.state.currName+userQueryEnd;
       }
-      return fetch('https://api.github.com/graphql', {
-        method: 'POST',
-        headers: {
-          Authorization: 'bearer 6d473c3d8ab5756815fbadf30be721c0c2bf1c14',
-        },
-        body: JSON.stringify({ query : queryStr}),
-      })
+      return fetchWithQuery(queryStr)
         .then((response) => response.json())
         .then((responseJson) => {
           let data = responseJson.data.viewer;
@@ -68,7 +67,7 @@ export default class MainScreen extends React.Component {
           );
         })
         .catch((error) => {
-          //console.log(error);
+          console.log(error);
         });
     }
   }

@@ -30,7 +30,6 @@ class FollowingScreen extends React.Component {
     this.state.datas = this.props.route.params;
   }
   render() {
-    console.log(this.state.datas)
     return (
       <View style={styles.container}>
          <FlatList

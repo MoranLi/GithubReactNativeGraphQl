@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "paddingTop": 50,
+      "textAlign": "center",
+    }
+  }
+>
+  <RCTScrollView
+    data={
+      Object {
+        "nodes": Array [
+          Object {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/11371924?u=0186c8e0405df60c5fa942dd05f55e1cd7409368&v=4",
+            "login": "forezp",
+            "name": "方志朋",
+          },
+          Object {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/26753671?v=4",
+            "login": "codeYuyuan",
+            "name": "YuYuan Liu",
+          },
+          Object {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/22850900?u=6d871aa35cc48254f33f433e43adf832606c210d&v=4",
+            "login": "jiahuan-he",
+            "name": "Geoffrey",
+          },
+          Object {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/3013575?u=328990cd000c08418bc204812b555761f1691c90&v=4",
+            "login": "buckyoung",
+            "name": "Buck Young",
+          },
+          Object {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/25192222?v=4",
+            "login": "xuz426",
+            "name": null,
+          },
+          Object {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/23608964?v=4",
+            "login": "yu-gu",
+            "name": "Ray(Yu) Gu",
+          },
+          Object {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/15624371?v=4",
+            "login": "syumet",
+            "name": null,
+          },
+          Object {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/6639067?v=4",
+            "login": "flowfire",
+            "name": null,
+          },
+          Object {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/19878158?u=b97d111aedda7b35563cff2be6a1477e38167efc&v=4",
+            "login": "mjvDEV",
+            "name": "Michael van der Kamp",
+          },
+          Object {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/4583692?u=8a94c58b4913bef2557a3413d3112d493328b7c7&v=4",
+            "login": "knames",
+            "name": "Ken Slawinski",
+          },
+          Object {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/8394389?u=3e577cb023d709707ebbf00230125543e1093ada&v=4",
+            "login": "Katajam",
+            "name": "Yige",
+          },
+        ],
+      }
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View />
+  </RCTScrollView>
+  <View
+    accessibilityRole="button"
+    accessibilityState={Object {}}
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Go to Main
+      </Text>
+    </View>
+  </View>
+</View>
+`;

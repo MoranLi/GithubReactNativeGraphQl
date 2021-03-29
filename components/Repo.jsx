@@ -4,6 +4,18 @@ import {
 } from 'react-native';
 import Repository from '../model/Repository';
 
+const repoQuery = '{ viewer { repositories(first: 100) { nodes { name owner { login } description } } } }';
+
+function fetchWithQuery(queryString){
+  return fetch('https://api.github.com/graphql', {
+    method: 'POST',
+    headers: {
+      Authorization: 'bearer',
+    },
+    body: JSON.stringify({ query : queryString}),
+  })
+}
+
 export default class RepoScreen extends React.Component {
   constructor(props) {
     super(props);
@@ -11,13 +23,7 @@ export default class RepoScreen extends React.Component {
   }
 
   async componentDidMount() {
-    return fetch('https://api.github.com/graphql', {
-      method: 'POST',
-      headers: {
-        Authorization: 'bearer',
-      },
-      body: JSON.stringify({ query: '{ viewer { repositories(first: 100) { nodes { name owner { login } description } } } }' }),
-    })
+    return fetchWithQuery(repoQuery)
       .then((response) => response.json())
       .then((responseJson) => {
         for (let i = 0; i < responseJson.data.viewer.repositories.nodes.length; i++) {
@@ -47,6 +53,7 @@ export default class RepoScreen extends React.Component {
       <View style={styles.container}>
         <FlatList
           data={this.state.datas}
+          keyExtractor={(item, index) =>index.toString()}
           renderItem={({ item }) => (
             <Text style={styles.baseText}>
               {item.getName()}
